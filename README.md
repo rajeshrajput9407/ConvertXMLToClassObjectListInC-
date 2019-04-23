@@ -1,6 +1,7 @@
 # ConvertXMLToClassObjectListInC-
 Convert XML To Class Object List In C#
-``` IntelliLockDB.ILDataBase db = DBHelper.GetDataBase();
+```
+IntelliLockDB.ILDataBase db = DBHelper.GetDataBase();
         var allRecords = db.Customers.ToXml();
 
         NewDataSet1 newDataSetList = new NewDataSet1();
